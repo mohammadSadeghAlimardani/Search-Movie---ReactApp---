@@ -1,0 +1,21 @@
+.single-movie {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.single-movie img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 100%;
+    height: 25rem;
+}
+.single-movie .info {
+    padding: 1rem;
+}
+.single-movie .info h3,
+h4 {
+    margin-bottom: 0.75rem;
+}
+.single-movie .info button {
+    width: 100%;
+}

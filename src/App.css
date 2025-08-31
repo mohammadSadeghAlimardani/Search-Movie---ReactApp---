@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url("./fonts/WorkSans-Regular.ttf") format("truetype");
+}
+main {
+    font-family: "WorkSans-Regular";
+}
+.btn.btn-danger {
+    background-color: var(--danger-500);
+    color: white;
+}
+.btn.btn-danger:hover {
+    background-color: var(--danger-600);
+}

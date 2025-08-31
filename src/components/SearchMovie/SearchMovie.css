@@ -1,0 +1,56 @@
+.searchMovie-center {
+    padding: 4rem 0;
+}
+form {
+    margin: 0 auto;
+    max-width: 480px;
+    margin-bottom: 2.5rem;
+}
+form header {
+    display: flex;
+    gap: 0;
+}
+form header input#search-text {
+    font-family: "WorkSans-Regular";
+    width: 100%;
+    padding: 0.25rem 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+form header input#search-text:focus {
+    outline: none;
+}
+form header button.btn#submit-btn {
+    font-size: 1.15rem;
+    background-color: var(--primary-500);
+    color: white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+form header button.btn#submit-btn:hover {
+    background-color: var(--primary-600);
+}
+
+form .filter-btns {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+}
+form .filter-btns label {
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+form .filter-btns .filter-year span {
+    display: block;
+    margin-top: 0.5rem;
+}
+form .filter-btns .filter-type select {
+    text-transform: capitalize;
+    font-family: "WorkSans-Regular";
+    padding: 0.25rem 0.5rem;
+}
+form .filter-btns .filter-type select option {
+    padding: 0.25rem 0.5rem;
+}
